@@ -1,4 +1,4 @@
-[TESTED](https://img.shields.io/badge/Tested%20On-Termux-yellowgreen.svg?style=flat-square)
+
 # Sudo-su-Termux
 A bash script to install the sudo functionality in termux.
 
