@@ -3,16 +3,16 @@ A bash script to install the sudo functionality in termux.
 
 **Requirements**
 
-The device must be rooted else this wwill not work.
+The device must be rooted else this will not work.
 
 **Installing sudo**
 
 1. Open termux 
-
+2. Copy this command 
 ```
-cat sudo > /data/data/com.termux/files/usr/bin/sudo
-chmod 700 /data/data/com.termux/files/usr/bin/sudo
+wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/install.sh && ./install.sh
 ```
+3. Done!
 
 **Features**
 
@@ -40,5 +40,4 @@ sudo <command> [<args>]
 
 **This was inspired by the following:**
 
-https://github.com/cswl/tsu  
-https://gist.github.com/cswl/cd13971e644dc5ced7b2  
+https://gitlab.com/st42/termux-sudo
