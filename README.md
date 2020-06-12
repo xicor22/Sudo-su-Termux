@@ -26,7 +26,6 @@ wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/install.sh 
 - Runs built in Termux binaries and exteral binaries with optional arguments as root in current directory
 - Generates output in shell currently using
 - Can be used in other bash scripts
-- [option] Can turn off colored error messages be editing the variable ```colored``` at the beginning of sudo file
 
 ```
 Usage:
