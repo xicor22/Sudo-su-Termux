@@ -10,7 +10,7 @@ The device must be rooted else this will not work.
 1. Open termux 
 2. Copy this command 
 ```
-wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/install.sh && ./install.sh
+wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/install.sh && chmod +x install.sh && ./install.sh
 ```
 3. Done!
 
