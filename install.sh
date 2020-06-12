@@ -1,1 +1,1 @@
-pkg install ncurses-utils && wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/sudo && mv sudo /data/data/com.termux/files/usr/bin && chmod 700 /data/data/com.termux/files/usr/bin/sudo 
+echo "Installing Sudo......." && cd $HOME && pkg install ncurses-utils >/dev/null 2>&1 && wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/sudo >/dev/null 2>&1 && mv sudo /data/data/com.termux/files/usr/bin && chmod 700 /data/data/com.termux/files/usr/bin/sudo && echo "Installation Finished!"
