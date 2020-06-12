@@ -8,7 +8,7 @@ The device must be rooted else this will not work.
 **Installing sudo**
 
 1. Open termux 
-2. Copy this command 
+2. Execute this command 
 ```
 wget https://raw.githubusercontent.com/xicor22/Sudo-su-Termux/master/install.sh && chmod +x install.sh && ./install.sh
 ```
